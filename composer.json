@@ -1,0 +1,57 @@
+{
+	"name": "sup7even/realurl_clearautoconf",
+	"type": "typo3-cms-extension",
+	"description": "Delete the automatic generated typo3conf/realurl_autoconf.php via the TYPO3 CMS Backend (additional ClearCacheMenu item)",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"realurl",
+		"clearcache"
+	],
+	"homepage": "http://sup7even.digital",
+	"support": {
+		"issues": "https://github.com/sup7even/realurl_clearautoconf/issues"
+	},
+	"authors": [
+		{
+			"name": "Josef Glatz",
+			"email": "j.glatz@supseven.at",
+			"role": "Developer",
+			"homepage": "http://sup7even.digital"
+		}
+	],
+	"license": "GPL-2.0+",
+	"require": {
+		"typo3/cms-core": "^8.0"
+	},
+	"require-dev": {},
+	"autoload": {
+		"psr-4": {
+			"Sup7even\\RealurlClearautoconf\\": "Classes"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {}
+	},
+	"replace": {
+		"realurl_clearautoconf": "self.version",
+		"typo3-ter/realurl-clearautoconf": "self.version"
+	},
+	"config": {
+		"preferred-install": {
+			"typo3/cms": "source",
+			"typo3/cms-core": "source",
+			"*": "dist"
+		}
+	},
+	"scripts": {},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		},
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": ".Build/Web"
+		}
+	}
+}

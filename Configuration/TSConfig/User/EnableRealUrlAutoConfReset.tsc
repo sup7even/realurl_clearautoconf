@@ -1,0 +1,2 @@
+// Enable custom realurl reset autoconf clear cache entry provided by EXT:realurl_clearautoconf
+options.clearCache.realurl.autoconf = 1

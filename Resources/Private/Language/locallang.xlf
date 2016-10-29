@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="realurl_clearautoconf">
+		<header/>
+		<body>
+			<trans-unit id="clearcacheaction.realurl.autoConfTitle">
+				<source>Reset realurl automatic configuration</source>
+			</trans-unit>
+			<trans-unit id="clearcacheaction.realurl.autoConfDescription">
+				<source>Delete automatic generated realurl configuration file.</source>
+			</trans-unit>
+			<trans-unit id="clearcacheaction.realurl.autoConfDescriptionTurnedOff">
+				<source>PS: Realurl AutoConf is currently turned off</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
